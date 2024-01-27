@@ -1,1 +1,1 @@
-# AI-Enterprice
+# AI-Enterprise
