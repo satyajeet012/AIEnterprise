@@ -1,3 +1,4 @@
-Factorial Calculator
+ML models
 
-This Python script calculates the factorial of a given number provided by the user. It defines a calculate_factorial function that iterates through numbers from 1 to the input number, multiplying them to compute the factorial. Users can input any non-negative integer, and the script will output the corresponding factorial value.
+This repository contains the code for predicting breast cancer diagnosis using two machine learning models:1)Linear Regression and 2)Random Forest Classifier. The dataset used is the Breast Cancer Wisconsin Diagnostic dataset from the UCI Machine Learning Repository.
+The Linear Regression model uses a linear approach to identify the relationship between independent variables and tumor diagnosis, while the Random Forest Classifier utilizes uses learning to construct decision trees for accurate classification.
