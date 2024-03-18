@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-import joblib  # Import joblib for model serialization
+import joblib  
 
 app = Flask(__name__, template_folder='.')
 
@@ -20,11 +20,6 @@ y = data['Species']
 # Train the Random Forest classifier
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X, y)
-
-# Save the trained model
-print("Saving the model...")
-joblib.dump(model, 'model.pkl')
-print("Model saved successfully.")
 
 @app.route('/')
 def home():
