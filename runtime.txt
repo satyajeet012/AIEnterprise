@@ -1,2 +1,0 @@
-python-3.12
-heroku buildpacks:set heroku/python
