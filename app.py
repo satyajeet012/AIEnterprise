@@ -1,9 +1,8 @@
-# Import necessary libraries
 from flask import Flask, request, jsonify, render_template
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-import joblib  # Import joblib for model serialization
+import joblib 
 
 app = Flask(__name__, template_folder='.')
 
