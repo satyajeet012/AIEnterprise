@@ -122,7 +122,7 @@ safetensors==0.4.2
 scikit-learn==1.3.2
 scipy==1.11.4
 seaborn==0.13.0
-setuptools==69.0.2
+setuptools==68.2.2
 six==1.16.0
 smmap==5.0.1
 sniffio==1.3.1
@@ -154,6 +154,17 @@ watchdog==4.0.0
 wcwidth==0.2.8
 webencodings==0.5.1
 Werkzeug==3.0.1
+
+averaged_perceptron_tagger
+punkt
+stopwords
+wordnet
+
+Flask==2.0.1
+pandas==1.3.3
+scikit-learn==0.24.2
+setuptools==69.0.2
+
 wrapt==1.16.0
 yarl==1.9.4
 yfinance==0.2.33
